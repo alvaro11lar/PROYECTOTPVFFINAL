@@ -48,7 +48,11 @@
                   <Line endX="618.0" endY="-182.5093231201172" layoutX="584.0" layoutY="219.0" startX="-578.775146484375" startY="-182.5093231201172" />
                   <ScrollPane layoutX="5.0" layoutY="91.0" prefHeight="477.0" prefWidth="200.0">
                     <content>
-                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="475.0" prefWidth="200.0" />
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="475.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="cajaClienttes" layoutX="6.0" layoutY="14.0" prefHeight="438.0" prefWidth="174.0" />
+                           </children>
+                        </AnchorPane>
                     </content>
                   </ScrollPane>
                   <ScrollPane layoutX="206.0" layoutY="94.0" prefHeight="475.0" prefWidth="236.0">

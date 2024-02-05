@@ -125,7 +125,7 @@ public class LoginClienteController {
 		try {
 			FXMLLoader loader3 = new FXMLLoader(getClass().getResource("/fxml/SignupCliente.fxml"));
 
-			SignupVendedorController control3 = new SignupVendedorController();
+			SignUpCliente control3 = new SignUpCliente();
 
 			loader3.setController(control3);
 
